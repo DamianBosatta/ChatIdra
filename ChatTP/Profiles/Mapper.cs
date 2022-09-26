@@ -11,7 +11,7 @@ namespace ChatTP.Profiles
         {
             CreateMap<RegisterRequest, User>();
             CreateMap<User, UserResponse>();
-            CreateMap<Room, RoomResponse>();
+            CreateMap<Room, RoomResponse>().ReverseMap();
             CreateMap<Messagge, MessaggeResponse>();
             CreateMap<MessaggeRequest, Messagge>().ReverseMap();
         }

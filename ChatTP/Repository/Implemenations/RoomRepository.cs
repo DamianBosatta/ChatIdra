@@ -10,7 +10,14 @@ namespace ChatTP.Repository.Implemenations
         public RoomRepository(ApplicationDbContext db) : base(db)
         {
         }
+        public Room GetRoomFull(int id)
+        {
+            Room res = _db.Rooms.Where(r => r.id == id).Include(r => r.Messages).FirstOrDefault();
+            var mes = res.Messages.OrderBy(x => x.time).ToList();
+            res.Messages = mes;
+            return res;
+        }
 
-   
+
     }
 }

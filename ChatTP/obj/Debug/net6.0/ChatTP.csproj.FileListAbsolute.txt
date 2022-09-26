@@ -61,3 +61,4 @@ C:\Users\Felix\Desktop\Chat Idra\ChatTP\ChatTP\obj\Debug\net6.0\ChatTP.genruntim
 C:\Users\Felix\Desktop\Chat Idra\ChatTP\ChatTP\obj\Debug\net6.0\ref\ChatTP.dll
 C:\Users\Felix\Desktop\Chat Idra\ChatTP\ChatTP\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Felix\Desktop\Chat Idra\ChatTP\ChatTP\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Felix\Desktop\Chat Idra\ChatTP\ChatTP\bin\Debug\net6.0\Newtonsoft.Json.dll

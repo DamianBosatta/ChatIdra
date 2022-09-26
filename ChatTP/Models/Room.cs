@@ -10,7 +10,9 @@ namespace ChatTP.Models
        [Required]
        public string? NameRoom { get; set; }
        public int idUserRoom { get; set; }
-       public virtual ICollection<Messagge>? Messages { get; set; }
+        [Required]
+        public int roomtypeid { get; set; }
+        public virtual ICollection<Messagge>? Messages { get; set; }
 
 
     }

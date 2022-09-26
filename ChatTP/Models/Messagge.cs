@@ -9,6 +9,7 @@ namespace ChatTP.Models
         public string? messaggebody { get; set; }
        public int idUser { get; set; }
        public int idRoom { get; set; }
+        public DateTime time { get; set; }
         public Room? roomchat { get; set; }  
     }
 }

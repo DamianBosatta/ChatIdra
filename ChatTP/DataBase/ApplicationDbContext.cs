@@ -13,6 +13,7 @@ namespace ChatTP.DataBase
         public DbSet<Messagge> Messagges { get; set; }
         public DbSet<UserRoom> UserRooms { get; set; }
         public DbSet<User> Users { get; set; }
-      
+        public DbSet<RoomType> RoomsType { get; set; }
+
     }
 }

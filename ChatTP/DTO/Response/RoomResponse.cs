@@ -4,7 +4,7 @@
     {
         public int id { get; set; }
         public string? NameRoom { get; set; }
-        public int idUserRoom { get; set; }
+        public int roomtypeid { get; set; }
         public virtual ICollection<MessaggeResponse>? Messages { get; set; }
 
     }

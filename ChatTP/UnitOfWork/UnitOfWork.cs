@@ -16,6 +16,7 @@ namespace ChatTP.UnitOfWork
             RoomRepository = new RoomRepository(context);
             UserRepository = new UserRepository(context);
             UserRoomRepository = new UserRoomRepository(context);
+            RoomTypeRepository = new RoomTypeRepository(context);
         }
 
         public IMessaggeRepository MessaggeRepository { get; private set; }
@@ -25,6 +26,8 @@ namespace ChatTP.UnitOfWork
         public IUserRepository UserRepository { get; private set; }
 
         public IUserRoomRepository UserRoomRepository { get; private set; }
+
+        public IRoomTypeRepository RoomTypeRepository { get; private set; }
 
         public void Dispose()
         {

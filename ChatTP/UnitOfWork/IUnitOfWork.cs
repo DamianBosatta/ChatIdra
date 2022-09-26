@@ -8,6 +8,7 @@ namespace ChatTP.UnitOfWork
         IRoomRepository  RoomRepository { get; }
         IUserRepository UserRepository { get; }
         IUserRoomRepository UserRoomRepository { get; }
+        IRoomTypeRepository RoomTypeRepository { get; }
         void Save();
 
     }
