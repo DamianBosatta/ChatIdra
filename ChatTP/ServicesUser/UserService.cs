@@ -27,11 +27,16 @@ namespace ChatTP.Services
                 UserResponse response = new UserResponse();
                 //traigo el usuario, por el email
                 User user = _uOW.UserRepository.GetByEmail(userLogin.mail);
-              
-                //aca mappeo de un Usuario a un UserResponse para no devolver cosas innecesarias
-                response = _mapper.Map<UserResponse>(user);
-                //Devuelvo la respuesta si esta todo bien
-                return response;
+                if(user.password == userLogin.Password)
+                {
+                    //aca mappeo de un Usuario a un UserResponse para no devolver cosas innecesarias
+                    response = _mapper.Map<UserResponse>(user);
+                    //Devuelvo la respuesta si esta todo bien
+                    return response;
+                }
+
+                return null;
+                
             }
 
             return null;

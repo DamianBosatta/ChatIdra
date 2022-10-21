@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Felix\\Desktop\\Chat Idra\\ChatTP\\ChatTP\\ChatTP.csproj": {}
+    "C:\\Users\\trabajo\\source\\repos\\ChatIdra\\ChatTP\\ChatTP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Felix\\Desktop\\Chat Idra\\ChatTP\\ChatTP\\ChatTP.csproj": {
+    "C:\\Users\\trabajo\\source\\repos\\ChatIdra\\ChatTP\\ChatTP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felix\\Desktop\\Chat Idra\\ChatTP\\ChatTP\\ChatTP.csproj",
+        "projectUniqueName": "C:\\Users\\trabajo\\source\\repos\\ChatIdra\\ChatTP\\ChatTP.csproj",
         "projectName": "ChatTP",
-        "projectPath": "C:\\Users\\Felix\\Desktop\\Chat Idra\\ChatTP\\ChatTP\\ChatTP.csproj",
-        "packagesPath": "C:\\Users\\Felix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felix\\Desktop\\Chat Idra\\ChatTP\\ChatTP\\obj\\",
+        "projectPath": "C:\\Users\\trabajo\\source\\repos\\ChatIdra\\ChatTP\\ChatTP.csproj",
+        "packagesPath": "C:\\Users\\trabajo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trabajo\\source\\repos\\ChatIdra\\ChatTP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Felix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\trabajo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -87,8 +87,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -100,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

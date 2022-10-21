@@ -2,10 +2,12 @@
 using ChatTP.DTO.Response;
 using ChatTP.Services;
 using ChatTP.UnitOfWork;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ChatTP.Controllers
 {
+    [DisableCors]
     [Route("auth/login")]
     [ApiController]
     public class UserController : Controller
@@ -18,6 +20,7 @@ namespace ChatTP.Controllers
             _usuarioService = usuarioService;
             _uow = uow;
         }
+        [EnableCors("AllowAll")]
         [HttpPost]
         public ActionResult Login([FromBody] LoginRequest req)
         {
@@ -28,7 +31,7 @@ namespace ChatTP.Controllers
             }
             return Ok(response);
         }
-
+        [EnableCors("AllowAll")]
         [HttpPost("register")]
         public async Task<ActionResult> RegistrarUsuario([FromBody] RegisterRequest user)
         {

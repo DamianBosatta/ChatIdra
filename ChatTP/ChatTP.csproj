@@ -4,6 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	 <DockerfileRunArguments>-e "ENABLE_CORS=true" -p 81:80</DockerfileRunArguments>
   </PropertyGroup>
 
   <ItemGroup>
